@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ensure body takes full viewport height */
+    margin: 20px; /* Remove default body margin */
+  }
+  
+  /* Make <main> a flex container with horizontal direction */
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* Allow <main> to adjust its size automatically */
+    overflow: hidden; /* Ensure no overflow in the main container */
+  }
+  
+  /* Style <article> to take 2/3 of the width */
+  article {
+    flex: 2; /* Takes up 2 boxes worth of space */
+    overflow-y: auto; /* Enable vertical scroll if content overflows */
+  }
+  
+  /* Style <aside> to take 1/3 of the width */
+  aside {
+    flex: 1; /* Takes up 1 box worth of space */
+    overflow-y: auto; /* Enable vertical scroll if content overflows */
+  }
