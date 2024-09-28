@@ -1,0 +1,27 @@
+body {
+    background-image: url(images/headphones_hero_1.jpg);
+}
+
+ header nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    line-height: 15.08px;
+    /* text-align: left; */
+}
